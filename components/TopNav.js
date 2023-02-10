@@ -21,8 +21,9 @@ export default function TopNav() {
                     alt="Your Company"
                   />
                   <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    className="hidden h-10 w-auto lg:block rounded-full"
+                    // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    src="bear2.jpg"
                     alt="Your Company"
                   />
                 </div>
@@ -56,6 +57,13 @@ export default function TopNav() {
                   </div>
                 </div>
               </div>
+              {/* <div className="flex justify-center text-gray-200 text-xl">
+                <img
+                  src="bear2.jpg"
+                  className="block h-8 w-auto rounded-full mr-2"
+                />
+                Poller Bear
+              </div> */}
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex items-center">
                   <button
