@@ -86,6 +86,70 @@ export default function Messages() {
       id: 20,
       name: "Stannis Baratheon",
     },
+    {
+      id: 21,
+      name: "Frodo Baggins",
+    },
+    {
+      id: 22,
+      name: "Samwise Gamgee",
+    },
+    {
+      id: 23,
+      name: "Gandalf",
+    },
+    {
+      id: 24,
+      name: "Aragorn",
+    },
+    {
+      id: 25,
+      name: "Legolas",
+    },
+    {
+      id: 26,
+      name: "Gimli",
+    },
+    {
+      id: 27,
+      name: "Boromir",
+    },
+    {
+      id: 28,
+      name: "Merry",
+    },
+    {
+      id: 29,
+      name: "Pippin",
+    },
+    {
+      id: 30,
+      name: "Treebeard",
+    },
+    {
+      id: 31,
+      name: "Saruman",
+    },
+    {
+      id: 32,
+      name: "Radagast",
+    },
+    {
+      id: 33,
+      name: "Galadriel",
+    },
+    {
+      id: 34,
+      name: "Elrond",
+    },
+    {
+      id: 35,
+      name: "Tom Bombadil",
+    },
+    {
+      id: 36,
+      name: "Balrog",
+    },
   ];
 
   useEffect(() => {
