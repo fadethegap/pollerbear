@@ -42,6 +42,12 @@ export default function CampaignList() {
       role: "Active",
     },
   ];
+  useEffect(() => {
+    window.localStorage.setItem("CampaignData", JSON.stringify(data));
+
+    const fromLS = window.localStorage.getItem("CampaignData");
+    console.log(JSON.parse(fromLS));
+  }, []);
 
   useEffect(() => {
     setPeople(data);
@@ -116,11 +122,10 @@ export default function CampaignList() {
                             personIdx % 2 === 0 ? undefined : "bg-gray-50"
                           }
                         >
-                          <a href="#">
-                            <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
-                              {person.name}
-                            </td>
-                          </a>
+                          <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                            <a href="#"> {person.name}</a>
+                          </td>
+
                           <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                             {person.title}
                           </td>
