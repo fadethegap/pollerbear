@@ -29,7 +29,7 @@ export default function ListsCombobox() {
         });
 
   return (
-    <div className="w-1/4">
+    <div className="md:w-1/4">
       <Combobox as="div" value={selectedPerson} onChange={setSelectedPerson}>
         <Combobox.Label className="block text-sm font-medium text-gray-700">
           Select List

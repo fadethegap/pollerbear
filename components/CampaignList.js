@@ -90,7 +90,7 @@ export default function CampaignList() {
                         </th>
                         <th
                           scope="col"
-                          className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                          className="hidden md:visible px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
                         >
                           Phone Number
                         </th>
@@ -102,7 +102,7 @@ export default function CampaignList() {
                         </th>
                         <th
                           scope="col"
-                          className="relative py-3.5 pl-3 pr-4 sm:pr-6"
+                          className="hidden md:visible relative py-3.5 pl-3 pr-4 sm:pr-6"
                         >
                           <span className="sr-only">Edit</span>
                         </th>
@@ -124,7 +124,7 @@ export default function CampaignList() {
                           <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                             {person.title}
                           </td>
-                          <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                          <td className="hidden md:visible whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                             {person.email}
                           </td>
                           <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
@@ -133,7 +133,7 @@ export default function CampaignList() {
                           <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
                             <a
                               href="#"
-                              className="text-gray-600 hover:text-gray-900"
+                              className="hidden md:visible text-gray-600 hover:text-gray-900"
                             >
                               Edit
                               <span className="sr-only">, {person.name}</span>

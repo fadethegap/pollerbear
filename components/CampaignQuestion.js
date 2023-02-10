@@ -15,7 +15,7 @@ export default function CampaignQuestion() {
     <div className="flex items-start space-x-4 pt-2">
       <div className="min-w-0 flex-1">
         {/* <div>{question}</div> */}
-        <form action="#" className="relative w-1/2">
+        <form action="#" className="relative md:w-1/2">
           <div className="overflow-hidden rounded-lg border border-gray-300 shadow-sm focus-within:border-gray-500 focus-within:ring-1 focus-within:ring-gray-500">
             <label htmlFor="comment" className="sr-only">
               Add your campaign question...

@@ -10,7 +10,7 @@ export default function Campaign() {
     // <div className="grid md:grid-cols-2 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-4">
     <div className="grid mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-4">
       {/* <FileLoader /> */}
-      <div className="mb-3 w-1/4">
+      <div className="mb-3 md:w-1/4">
         <Input
           label="Campaign Name"
           placeholder="XYZ Campaign"
