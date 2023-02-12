@@ -80,7 +80,7 @@ export default function FileLoader() {
           type="file"
         />
       </div>
-      {list && list.map((item, i) => <div key={i}>{i > 0 && item.name}</div>)}
+      {/* {list && list.map((item, i) => <div key={i}>{i > 0 && item.name}</div>)} */}
     </div>
   );
 }
