@@ -15,18 +15,20 @@ export default function TopNav() {
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
                 <div className="flex-shrink-0">
-                  <img
-                    className="block h-8 w-auto lg:hidden rounded-full"
-                    // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    src="bear2.jpg"
-                    alt="Your Company"
-                  />
-                  <img
-                    className="hidden h-10 w-auto lg:block rounded-full"
-                    // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    src="bear2.jpg"
-                    alt="Your Company"
-                  />
+                  <a href="/">
+                    <img
+                      className="block h-8 w-auto lg:hidden rounded-full"
+                      // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                      src="bear2.jpg"
+                      alt="Your Company"
+                    />
+                    <img
+                      className="hidden h-10 w-auto lg:block rounded-full"
+                      // src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                      src="bear2.jpg"
+                      alt="Your Company"
+                    />
+                  </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
